@@ -1,0 +1,571 @@
+2024-12-12 17:51:15,954 - INFO - writing the query
+2024-12-12 17:51:15,954 - INFO - Executing the query
+2024-12-12 17:52:23,299 - INFO - writing the query
+2024-12-12 17:52:23,300 - INFO - Executing the query
+2024-12-12 17:54:16,582 - INFO - writing the query
+2024-12-12 17:54:16,582 - INFO - Executing the query
+2024-12-12 17:54:16,615 - ERROR - bing one
+2024-12-12 18:00:46,693 - INFO - writing the query
+2024-12-12 18:00:46,693 - INFO - Executing the query
+2024-12-12 18:00:46,765 - ERROR - bing one
+2024-12-12 19:32:30,439 - INFO - Data load strted ....
+2024-12-12 19:32:30,706 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:32:31,427 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 19:32:31,537 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:32:31,646 - INFO - Data load finsihed ....
+2024-12-12 19:33:12,531 - INFO - Data load strted ....
+2024-12-12 19:33:26,752 - INFO - Data load strted ....
+2024-12-12 19:33:26,768 - INFO - Data load finsihed ....
+2024-12-12 19:34:05,246 - INFO - Data load strted ....
+2024-12-12 19:34:05,259 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:34:05,369 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 19:34:05,384 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:34:05,400 - INFO - Data load finsihed ....
+2024-12-12 19:35:56,562 - INFO - Data load strted ....
+2024-12-12 19:35:56,703 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:35:56,766 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 19:35:56,862 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:35:56,962 - INFO - Data load finsihed ....
+2024-12-12 19:39:15,790 - INFO - Data load strted ....
+2024-12-12 19:39:15,931 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:39:16,197 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 19:39:16,229 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:39:16,260 - INFO - Data load finsihed ....
+2024-12-12 19:40:30,567 - INFO - Data load strted ....
+2024-12-12 19:40:30,614 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:40:30,708 - ERROR - load_inventory_fact: Data loding failed
+2024-12-12 19:40:30,724 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 19:40:30,740 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 19:40:30,755 - INFO - Data load finsihed ....
+2024-12-12 20:01:29,112 - INFO - Data load strted ....
+2024-12-12 20:01:29,144 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-12 20:01:29,144 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(text(query))
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\_elements_constructors.py", line 1651, in text
+    return TextClause(text)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 2298, in __init__
+    self.text = self._bind_params_regex.sub(repl, text)
+TypeError: expected string or bytes-like object
+2024-12-12 20:01:29,206 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:01:29,269 - ERROR - load_inventory_fact: Data loding failed
+2024-12-12 20:01:29,285 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 20:01:29,300 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:01:29,316 - INFO - Data load finsihed ....
+2024-12-12 20:01:47,527 - INFO - Data load strted ....
+2024-12-12 20:01:47,543 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-12 20:01:47,543 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(text(query))
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\_elements_constructors.py", line 1651, in text
+    return TextClause(text)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 2298, in __init__
+    self.text = self._bind_params_regex.sub(repl, text)
+TypeError: expected string or bytes-like object
+2024-12-12 20:01:47,543 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:01:47,590 - ERROR - load_inventory_fact: Data loding failed
+2024-12-12 20:01:47,606 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 20:01:47,716 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:01:47,779 - INFO - Data load finsihed ....
+2024-12-12 20:04:20,274 - INFO - Data load strted ....
+2024-12-12 20:04:20,305 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-12 20:04:20,305 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(text(query))
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\_elements_constructors.py", line 1651, in text
+    return TextClause(text)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 2298, in __init__
+    self.text = self._bind_params_regex.sub(repl, text)
+TypeError: expected string or bytes-like object
+2024-12-12 20:04:20,305 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:04:20,368 - ERROR - load_inventory_fact: Data loding failed
+2024-12-12 20:04:20,384 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 20:04:20,416 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:04:20,447 - INFO - Data load finsihed ....
+2024-12-12 20:13:48,616 - INFO - Data load strted ....
+2024-12-12 20:13:48,647 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-12 20:13:48,647 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(text(query))
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\_elements_constructors.py", line 1651, in text
+    return TextClause(text)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 2298, in __init__
+    self.text = self._bind_params_regex.sub(repl, text)
+TypeError: expected string or bytes-like object
+2024-12-12 20:13:48,647 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:13:48,694 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 20:13:48,710 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:13:48,726 - INFO - Data load finsihed ....
+2024-12-12 20:16:41,232 - INFO - Data load strted ....
+2024-12-12 20:16:41,232 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-12 20:16:41,232 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(text(query))
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\_elements_constructors.py", line 1651, in text
+    return TextClause(text)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 2298, in __init__
+    self.text = self._bind_params_regex.sub(repl, text)
+TypeError: expected string or bytes-like object
+2024-12-12 20:16:41,248 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:16:41,311 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 20:16:41,326 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:16:41,370 - INFO - Data load finsihed ....
+2024-12-12 20:20:38,946 - INFO - Data load strted ....
+2024-12-12 20:20:38,956 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-12 20:20:38,956 - INFO - load_fact_sales: Data loaded successfully
+2024-12-12 20:20:39,019 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:20:39,050 - ERROR - load_inventory_fact: Data loding failed
+2024-12-12 20:20:39,066 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 20:20:39,081 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:20:39,097 - INFO - Data load finsihed ....
+2024-12-12 20:20:51,044 - INFO - Data load strted ....
+2024-12-12 20:20:51,044 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-12 20:20:51,107 - INFO - load_fact_sales: Data loaded successfully
+2024-12-12 20:20:51,123 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:20:51,185 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 20:20:51,232 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:20:51,280 - INFO - Data load finsihed ....
+2024-12-12 20:22:19,408 - INFO - Data load strted ....
+2024-12-12 20:22:19,423 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-12 20:22:19,423 - INFO - load_fact_sales: Data loaded successfully
+2024-12-12 20:22:19,486 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:22:19,486 - ERROR - load_inventory_fact: Data loding failed
+2024-12-12 20:22:19,502 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-12 20:22:19,517 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-12 20:22:19,533 - INFO - Data load finsihed ....
+2024-12-12 20:23:37,738 - INFO - Data load strted ....
+2024-12-12 20:23:37,785 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-12 20:23:37,895 - INFO - load_fact_sales: Data loaded successfully
+2024-12-12 20:23:37,942 - INFO - Data load finsihed ....
+2024-12-19 15:48:39,747 - INFO - Data load strted ....
+2024-12-19 15:48:39,778 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-19 15:48:40,295 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(query)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+[SQL: insert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date)
+                     select sales_id,product_id,store_id,quantity,total_amount,sale_date from sales_with_deatils;]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-19 15:48:40,921 - INFO - Data load finsihed ....
+2024-12-19 15:49:17,618 - INFO - Data load strted ....
+2024-12-19 15:49:17,634 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-19 15:49:17,712 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(query)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+[SQL: insert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date)
+                     select sales_id,product_id,store_id,quantity,total_amount,sale_date from sales_with_deatils;]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-19 15:49:17,728 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 15:49:18,040 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-19 15:49:18,119 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 15:49:18,165 - INFO - Data load finsihed ....
+2024-12-19 16:08:12,587 - INFO - Data load strted ....
+2024-12-19 16:08:12,650 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-19 16:08:12,650 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(query)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+[SQL: insert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date)
+                     select sales_id,product_id,store_id,quantity,total_amount,sale_date from sales_with_deatils;]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-19 16:08:12,665 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 16:08:12,665 - ERROR - load_inventory_fact: Data loding failed
+2024-12-19 16:08:12,681 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-19 16:08:12,697 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 16:08:12,712 - INFO - Data load finsihed ....
+2024-12-19 16:08:27,504 - INFO - Data load strted ....
+2024-12-19 16:08:27,520 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-19 16:08:27,660 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(query)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+[SQL: insert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date)
+                     select sales_id,product_id,store_id,quantity,total_amount,sale_date from sales_with_deatils;]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-19 16:08:27,692 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 16:08:27,692 - ERROR - load_inventory_fact: Data loding failed
+2024-12-19 16:08:27,708 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-19 16:08:27,770 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 16:08:27,818 - INFO - Data load finsihed ....
+2024-12-19 16:08:33,042 - INFO - Data load strted ....
+2024-12-19 16:08:33,058 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-19 16:08:33,058 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(query)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+[SQL: insert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date)
+                     select sales_id,product_id,store_id,quantity,total_amount,sale_date from sales_with_deatils;]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-19 16:08:33,058 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 16:08:33,058 - ERROR - load_inventory_fact: Data loding failed
+2024-12-19 16:08:33,074 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-19 16:08:33,090 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 16:08:33,106 - INFO - Data load finsihed ....
+2024-12-19 17:42:50,057 - INFO - Data load strted ....
+2024-12-19 17:42:50,230 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-19 17:42:50,420 - ERROR - load_fact_sales: Data loading failed
+Traceback (most recent call last):
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Anshu\Desktop\folder\ETL\Capstone\Scripts\load.py", line 21, in load_fact_sales
+    connection.execute(query)
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Program Files\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Anshu\AppData\Roaming\Python\Python310\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry '57' for key 'fact_sales.PRIMARY'")
+[SQL: insert into fact_sales(sales_id,product_id,store_id,quantity,total_sales,sale_date)
+                     select sales_id,product_id,store_id,quantity,total_amount,sale_date from sales_with_deatils;]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-19 17:42:50,920 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 17:42:50,920 - ERROR - load_inventory_fact: Data loding failed
+2024-12-19 17:42:50,951 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store table
+2024-12-19 17:42:51,875 - INFO - Executing load_inventory_fact function to load the fact_inventory table
+2024-12-19 17:42:51,922 - INFO - Data load finsihed ....
